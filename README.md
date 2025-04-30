@@ -37,22 +37,53 @@ This tool provides a simple way to:
 
 ## 🔧 Requirements
 
-- Python 3.x (recommended 3.6+)
+- Python 3.8 (recommended 3.8+)
 - No external packages required
 
 ---
 
 ## 🛠️ How to Use
 
-#### ▶️ Start the Server
+#### ▶️ Start the Server (Tested with python3.10)
 
 ```bash
 python3 http_file_server.py
 ```
 
 #### ▶️ Provide the http server IP address
+
 #### ▶️ Provide the http server PORT number
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
+**Python-based HTTP client**
 
+- Upload files to a running http server
+- Select multiple files at once
+- Windowded gui styled navigation
+  
+## 🔧 Requirements
+
+- Install tkinter
+  ```bash
+  sudo apt install python3.10-tk
+  ```
+- Easygui python library required
+
+#### Install the requirements.txt file
+
+```bash
+python3.10 -m pip install -r requirements.txt
+```
+
+#### ▶️ Run the client (tested with python3.10)
+
+```bash
+python3.8 http_file_client.py
+```
+#### ▶️ Provide the http server IP address
+
+#### ▶️ Provide the http server PORT number
+
+#### ▶️ Follow the wizard to upload the file/s
 
