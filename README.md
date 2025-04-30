@@ -79,7 +79,7 @@ python3.10 -m pip install -r requirements.txt
 #### ▶️ Run the client (tested with python3.10)
 
 ```bash
-python3.8 http_file_client.py
+python3.8 http_python_client.py
 ```
 #### ▶️ Provide the http server IP address
 
