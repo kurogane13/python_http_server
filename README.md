@@ -56,7 +56,7 @@ python3 http_file_server.py
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Python-based HTTP client**
+**Python-based HTTP GUI (easygui) client**
 
 - Upload files to a running http server
 - Select multiple files at once
@@ -79,11 +79,23 @@ python3.10 -m pip install -r requirements.txt
 #### ▶️ Run the client (tested with python3.10)
 
 ```bash
-python3.8 http_python_client.py
+python3.10 http_python_client.py
 ```
 #### ▶️ Provide the http server IP address
 
 #### ▶️ Provide the http server PORT number
 
 #### ▶️ Follow the wizard to upload the file/s
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Python-based HTTP CLI client**
+
+- This client is a cli client, which does not require any libraries.
+
+#### ▶️ Run the CLI client (tested with python3.10)
+
+```bash
+python3.10 http_python_cli_client.py
+```
 
